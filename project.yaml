@@ -1,0 +1,71 @@
+# .project metadata for OAuth2 Proxy
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Set slack_channels
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "oauth2-proxy"
+name: "OAuth2 Proxy"
+description: "A generic reverse proxy that provides authentication with Google, Azure, OpenID Connect and many more identity providers."
+type: "project"
+project_lead: "joelspeed" # TODO: AUTO-DETECTED — please verify
+# TODO: Set CNCF Slack channel(s)
+# slack_channels:
+#   - name: "#oauth2-proxy"
+#     primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2025-10-02T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/407" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/oauth2-proxy/oauth2-proxy"
+
+website: "https://oauth2-proxy.github.io/oauth2-proxy/"
+
+artwork: "https://landscape.cncf.io/logos/oauth2-proxy.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/oauth2-proxy/oauth2-proxy/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "oauth2-proxy/oauth2-proxy"
+
+
+security:
+  policy:
+    path: "https://github.com/oauth2-proxy/oauth2-proxy/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/oauth2-proxy/oauth2-proxy/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/oauth2-proxy/oauth2-proxy/blob/master/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/oauth2-proxy/oauth2-proxy/blob/master/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/oauth2-proxy/oauth2-proxy/blob/master/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/oauth2-proxy/oauth2-proxy/blob/master/README.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Security & Compliance"
+
+# CLOMonitor Score: 82/100
+# Documentation: 85 | License: 100 | Best Practices: 79 | Security: 45

@@ -12,3 +12,10 @@ maintainers:
           - joelspeed
           - tuunit
           - jjlakis
+          - kvanzuijlen
+          - pierluigilenoci
+      - name: "emeritus-maintainers"
+        members:
+          - NickMeves
+          - braunsonm
+          - steakunderscore

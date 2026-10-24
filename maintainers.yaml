@@ -11,7 +11,6 @@ maintainers:
         members:
           - joelspeed
           - tuunit
-          - jjlakis
           - pierluigilenoci
       - name: "emeritus-maintainers"
         members:
@@ -19,3 +18,4 @@ maintainers:
           - braunsonm
           - steakunderscore
           - kvanzuijlen
+          - jjlakis

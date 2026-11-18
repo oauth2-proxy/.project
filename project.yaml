@@ -26,7 +26,7 @@ repositories:
 
 website: "https://oauth2-proxy.github.io/oauth2-proxy/"
 
-artwork: "https://landscape.cncf.io/logos/oauth2-proxy.svg"
+artwork: "https://github.com/cncf/artwork/tree/main/projects/oauth2-proxy"
 
 # TODO: Add ADOPTERS.md if your project tracks adopters
 # adopters:
